@@ -1,0 +1,3 @@
+"docID": "612", "positions": [83, 87, 238, 694, 698], "tf": 5
+ "docID": "479", "positions": [194, 238], "tf": 2
+ "positions": [1147], "tf": 1
