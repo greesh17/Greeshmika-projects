@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="unifiedTitleAndToolBarOnMac">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="btn_display">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>120</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Show</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lb_benz_company">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>15</y>
+      <width>80</width>
+      <height>38</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lb_benz_date">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>65</y>
+      <width>130</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lb_bmw_date">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>143</y>
+      <width>130</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lb_bmw_company">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>94</y>
+      <width>80</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lb_audi_company">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>159</y>
+      <width>80</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lb_audi_date">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>210</y>
+      <width>130</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lb_benz_bg">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>15</y>
+      <width>64</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lb_bmw_bg">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>92</y>
+      <width>64</width>
+      <height>64</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lb_audi_bg">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>160</y>
+      <width>64</width>
+      <height>64</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
