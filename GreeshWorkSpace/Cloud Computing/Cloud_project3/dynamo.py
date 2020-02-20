@@ -7,7 +7,7 @@ from boto3.dynamodb.conditions import Key
 
 
 def create_table(table_name):
-   dynamodb_resource = resource('dynamodb',region_name='us-east-2',endpoint_url="http://localhost:8000", aws_access_key_id ='AKIAIPCD6YLRSLDTRBRQ', aws_secret_access_key='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')
+   dynamodb_resource = resource('dynamodb',region_name='us-east-2',endpoint_url="http://localhost:8000", aws_access_key_id ='AKIAIPCD6YLRSLDTRB', aws_secret_access_key='YuY')
     # to do
     # check the sample code https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GettingStarted.Python.01.html
     # create the greetings table with attributes (gid, date, content).
